@@ -164,7 +164,7 @@ ELMo gained its language understanding from being trained to predict the next wo
   A step in the pre-training process of ELMo: Given "Let's stick to" as input, predict the next most likely word -- a *language modeling* task. When trained on a large dataset, the model starts to pick up on language patterns. It's unlikely it'll accurately guess the next word in this example. More realistically, after a word such as "hang", it will assign a higher probability to a word like "out" (to spell "hang out") than to "camera".
 </div>
 
-We can see the hidden state of each unrolled-LSTM step peaking out from behind ELMo's head. Those come in handy in the embedding proecss after this pre-training is done.
+We can see the hidden state of each unrolled-LSTM step peaking out from behind ELMo's head. Those come in handy in the embedding process after this pre-training is done.
 
 ELMo actually goes a step further and trains a bi-directional LSTM -- so that its language model doesn't only have a sense of the next word, but also the previous word.
 
