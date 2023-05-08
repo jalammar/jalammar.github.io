@@ -110,7 +110,7 @@ As we've mentioned already, an encoder receives a list of vectors as input. It p
 </div>
 
 ## Self-Attention at a High Level
-Don't be fooled by me throwing around the word "self-attention" like it's a concept everyone should be familiar with. I had personally never came across the concept until reading the Attention is All You Need paper. Let us distill how it works.
+Don't be fooled by me throwing around the word "self-attention" like it's a concept everyone should be familiar with. I had personally never come across the concept until reading the Attention is All You Need paper. Let us distill how it works.
 
 Say the following sentence is an input sentence we want to translate:
 
