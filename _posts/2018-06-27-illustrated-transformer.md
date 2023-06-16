@@ -208,7 +208,7 @@ That concludes the self-attention calculation. The resulting vector is one we ca
 
 
 ## Matrix Calculation of Self-Attention
-**The first step** is to calculate the Query, Key, and Value matrices. We do that by packing our embeddings into a matrix <span class="encoder">X</span>, and multiplying it by the weight matrices we've trained (<span class="decoder">W<sup>Q</sup></span>, <span class="context">W<sup>K<sup></span>, <span class="step_no">W<sup>V<sup></span>).
+**The first step** is to calculate the Query, Key, and Value matrices. We do that by packing our embeddings into a matrix <span class="encoder">X</span>, and multiplying it by the weight matrices we've trained (<span class="decoder">W<sup>Q</sup></span>, <span class="context">W<sup>K</sup></span>, <span class="step_no">W<sup>V</sup></span>).
 
 <div class="img-div-any-width" markdown="0">
   <img src="/images/t/self-attention-matrix-calculation.png" />
