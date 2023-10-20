@@ -231,7 +231,7 @@ The sampled noise is predicted so that if we subtract it from the image, we get 
 
 </div>
 
-If the training dataset was of aesthetically pleasing images (e.g., [LAION Aesthetics](https://laion.ai/blog/laion-aesthetics/), which Stable Diffusion was trained on), then the resulting image would tend to be aesthetically pleasing. If the we train it on images of logos, we end up with a logo-generating model.
+If the training dataset was of aesthetically pleasing images (e.g., [LAION Aesthetics](https://laion.ai/blog/laion-aesthetics/), which Stable Diffusion was trained on), then the resulting image would tend to be aesthetically pleasing. If we train it on images of logos, we end up with a logo-generating model.
 
 <div class="img-div" markdown="0">
 <a href="/images/stable-diffusion/stable-diffusion-image-generation-v2.png">
