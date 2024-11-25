@@ -486,7 +486,7 @@ GPT-2 holds on to the key and value vectors of the the ```a``` token. Every self
   <br />
 </div>
 
-Now in the next iteration, when the model processes the word ```robot```, it does not need to generate query, key, and value queries for the ```a``` token. It just reuses the ones it saved from the first iteration:
+Now in the next iteration, when the model processes the word ```robot```, it does not need to regenerate the key, and value vectors for the ```a``` token. It just reuses the ones it saved from the first iteration:
 
 <div class="img-div-any-width" markdown="0">
   <image src="/images/gpt2/gpt2-self-attention-qkv-3-2.png"/>
